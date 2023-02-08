@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 700;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    max-width: 800px;
+    color: white;
+    margin-top: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: #1496bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+}
+

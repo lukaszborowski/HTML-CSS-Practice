@@ -1,0 +1,142 @@
+@font-face {
+    font-family: roboto_blackregular;
+    src: url("../fonts/roboto-black.woff2") format('woff2'),
+    url("../fonts/roboto-black.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_blackitalic';
+    src: url('../fonts/roboto-blackitalic.woff2') format('woff2'),
+    url('../fonts/roboto-blackitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold.woff2') format('woff2'),
+    url('../fonts/roboto-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('../fonts/roboto-bolditalic.woff2') format('woff2'),
+    url('../fonts/roboto-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto-italic.woff2') format('woff2'),
+    url('../fonts/roboto-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_lightregular';
+    src: url('../fonts/roboto-light.woff2') format('woff2'),
+    url('../fonts/roboto-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_lightitalic';
+    src: url('../fonts/roboto-lightitalic.woff2') format('woff2'),
+    url('../fonts/roboto-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_mediumregular';
+    src: url('../fonts/roboto-medium.woff2') format('woff2'),
+    url('../fonts/roboto-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_mediumitalic';
+    src: url('../fonts/roboto-mediumitalic.woff2') format('woff2'),
+    url('../fonts/roboto-mediumitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular.woff2') format('woff2'),
+    url('../fonts/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_thinregular';
+    src: url('../fonts/roboto-thin.woff2') format('woff2'),
+    url('../fonts/roboto-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_thinitalic';
+    src: url('../fonts/roboto-thinitalic.woff2') format('woff2'),
+    url('../fonts/roboto-thinitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    color: white;
+}
+#all_lists ul {
+    list-style: none;
+    width: 300px;
+    height: 500px;
+}
+
+#all_lists ul li {
+    height: 50px;
+    width: 300px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.large_list ul {
+    background-color: #FF00A5;
+    font-weight: 400;
+}
+
+.large_list ul li {
+    background-color: #36FF74;
+}
+
+#all_lists ul:nth-child(2){
+    background-color: #E8370E;
+    font-weight: 700;
+}
+
+#all_lists ul:nth-child(2) li {
+    background-color: #365FFF;
+}
+
+#all_lists ul:nth-child(2) ul {
+    background-color: #FFEC0C;
+    font-weight: 300;
+}
+
+#all_lists ul:nth-child(2) ul li {
+    background-color: #0DFFDE;
+}
